@@ -1,0 +1,53 @@
+.Header{
+	display: flex;
+   	flex-direction: row;
+   	justify-content: space-between;
+   	padding-left: 62px;
+    padding-right: 42px;
+    padding-top: 55px;
+	&-logo{
+		background-color: #87509c;
+	}
+	&-navWrap{
+		display: block;
+	}
+	&-nav{
+		display: flex;
+		justify-content: space-around;
+		width: 440px;
+	}
+	&-navItemActive {
+  		display: flex;
+    	align-items: center;
+    	width: auto;
+    	padding: 10px 15px;
+    	background: rgba(0, 0, 0, 0.3);
+		border: 1px solid #87509c;
+		border-radius: 5px;
+	}
+
+	&-navItem{
+    	display: flex;
+    	align-items: center;
+    	width: auto;
+    	padding: 10px 15px;
+    	background-color:#87509c;
+		border: 1px solid #87509c;
+		border-radius: 5px;
+		&:hover {
+			color: #ffffff;
+			background: rgba(0, 0, 0, 0.3);
+			border: 1px solid #643a79;
+			border-radius: 5px;
+			width: auto;
+		}
+	}
+	&-navItemLink{
+		display: block;
+    	color: #ffffff;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	font-family: 'Titillium Web', sans-serif;
+    	font-size: 16px;
+	}
+}

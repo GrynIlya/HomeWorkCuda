@@ -1,0 +1,88 @@
+.Testimonials{
+	width: 1140px;
+	margin:0 auto;
+	&-titleMain{
+		padding-top: 120px;
+		&::after {
+			content: "";
+			position: absolute;
+			width: 87px;
+			background: #b73c6d;
+			height: 4px;
+		    margin: 0 526.5px;
+    		margin-top: 22px;
+		}
+	}
+	&-titleSecond{
+		padding-top: 50px;
+    	margin:0 auto;
+	}
+	&-cat{
+		display: flex;
+		justify-content: space-around;
+		width: 380px;
+		margin: 0 auto;
+		margin-top: 45px;
+	}
+	&-catItem{
+    	display: flex;
+    	align-items: center;
+    	width: auto;
+    	padding: 12px 22px;
+    	background-color:#ebc985;
+		border: 1px solid #ebc985;
+		border-radius: 5px;
+		&:hover {
+			background-color:#ffffff;
+			border: 1px solid #ffffff;
+			border-radius: 5px;
+			width: auto;
+		}
+	}
+	&-catItemLink{
+		display: block;
+    	color: #393939;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	font-family: 'Titillium Web', sans-serif;
+    	font-size: 16px;
+	}
+	&-cardCommon{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 62px 10px 0;
+	}
+	&-card{
+		width: 540px;
+    	margin: 0 10px 145px;
+    	display: flex;
+    	flex-direction: row;
+    	align-items: flex-start;
+	}
+	&-cardImage{
+		height: 200px;
+		&--modif{
+			width: 96px;
+   			height: 96px;
+    		border-radius: 48px;
+		}
+	}
+	&-cardContent{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin: 12px 0 0 50px
+	}
+	&-cardSpeech{
+		margin-bottom: 35px;
+	}
+	&-cardName{
+	}
+	&-cardDescription{
+	}
+	&-cardText{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}

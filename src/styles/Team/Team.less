@@ -1,0 +1,63 @@
+.Team{
+	width: 1140px;
+	margin:0 auto;
+	&-titleMain{
+		padding-top: 120px;
+		&::after {
+			content: "";
+			position: absolute;
+			width: 87px;
+			background: #c8d9e5;
+			height: 4px;
+		    margin: 0 526.5px;
+    		margin-top: 22px;
+		}
+	}
+	&-titleSecond{
+		padding-top: 50px;
+    	margin:0 auto;
+	}
+	&-cardCommon{
+		display: flex;
+		flex-direction: row;
+		margin-top: 82px;
+	}
+	&-card{
+		width: 260px;
+    	margin: 0 10px;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	&-cardImage{
+		height: 200px;
+		&--modif{
+			width: 200px;
+    		height: 200px;
+    		border-radius: 100px
+		}
+	}
+	&-cardContent{
+		text-align: center;
+	}
+	&-cardName{
+		margin-top: 60px;
+	}
+	&-cardDescription{
+
+	}
+	&-cardText{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	&-social{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-bottom: 127px;
+	}
+	&-socialItem{
+		padding: 0 4px;
+	}
+
+}
